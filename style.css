@@ -101,7 +101,10 @@ nav > .right > .bag > span{
     color: white !important;
 }
 .sec5 > .left-a{
-    background: url(images/DrPol-DrPolStudio-422_2-1400x597.jpeg.webp) no-repeat, fixed center/cover;
+    background: url(images/DrPol-DrPolStudio-422_2-1400x597.jpeg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     min-height: 90vh;
     display: flex;
     justify-content: end;
