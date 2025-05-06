@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+}
+a{
+    cursor: pointer;
+}
+header{
+    background-color: #0A3A4A;
+    margin-bottom: 90px;
+}
+header > ul{
+    border-right: 1px solid rgba(168, 162, 162, 0.603);
+}
+nav{
+    right: 0;
+    left: 0;
+    top: 47px;
+}
+nav > .left > a{
+    width: 133px;
+    height: 83px;
+    display: inline-block;
+}
+nav > .left > ul{
+    list-style-type: none;
+    font-size: 14px;
+    color: gray;
+    font-weight: 700;
+}
+nav > .left > ul > a{
+    margin: 0 7px;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+nav > .left > ul > a > li{
+    color: #666666D9;
+    font-size: 14px;
+    font-weight: 700;
+}
+nav > .left > ul > a > li:hover{
+    color: black;
+}
+nav button{
+    background-color: #0A3A4A;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+nav > .right > .bag{
+    position: relative;
+}
+nav > .right > .bag > span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -43%);
+    /* font-size: 19px; */
+    color: red;
+}
+.sec1 > img{
+    /* height: 70vh; */
+    width: 100%;
+}
+.sec1 > h3{
+    background-color:#642919;
+    color: white;
+}
+.sec2{
+    height: 513px;
+}
+.sec2 > h4{
+    color: #642919;
+}
+.sec2 > img{
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+.sec3 > a{
+    color: white;
+    width: 213px;
+    font-size: 14px;
+}
+.sec3 > img{
+    width: 210px;
+    height: 210px;
+    margin: auto;
+}.sec4 > h2,
+.sec4 h4{
+    color: #3C6673;
+}
+.sec4 a,
+.sec5 a{
+    background-color: #3C6673;
+    color: white;
+}
+.sec4 a:hover,
+.sec5 a:hover{
+    background-color:#0A3A4A !important;
+    color: white !important;
+}
+.sec5 > .left-a{
+    background: url(images/DrPol-DrPolStudio-422_2-1400x597.jpeg.webp) no-repeat, fixed center/cover;
+    min-height: 90vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 75px;
+}
+.sec5 > .left-a > div{
+    width: 550px;
+}
+.sec5 > .left-a > h1{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec5 > .my-bg{
+    background: url(images/iStock-936361154-2.jpeg.webp) no-repeat center/cover;
+}
+.sec5 > .my-bg > div{
+    width: 500px;
+}
+.sec6{
+    min-height: 70vh;
+}
+.sec6 > h1{
+    color: #3C6673;
+}
+.sec6 > h1 > hr{
+    height: 2px;
+    width: 50%;
+}
+.sec6 > h1 > span{
+    display: inline-block;
+    width: 100%;
+    font-family: "Playfair Display", sans-serif;
+}
+.sec6 > .cover{
+    height: 600px;
+}
+.sec6 > .cover > .left{
+    height: 100%;
+    width: 80%;
+    background: url(./images/PolFamilySummer21-2-edit-copy-1200x800.jpg.webp) no-repeat center/cover;
+}
+.sec6 > .cover > .right{
+    flex-direction: column;
+    height: 100%;
+    width: 28%;
+}
+.sec6 > .cover > .right > .top{
+    background: url(./images/iStock-1342333180-300x200.jpeg.webp) no-repeat center/cover;
+}
+.sec6 > .cover > .right > .bottom{
+    background: url(./images/iStock-175455976-300x200.jpeg.webp) no-repeat center/cover;
+}
+.sec7{
+    background: url(./images/animal_prints-1400x420.jpeg.webp);
+    min-height: 80vh;
+}
+.sec7 > form{
+    width: 35%;
+    background-color: #33647e;
+}
+.sec7 > form > ul{
+    list-style-type: none;
+}
+.sec7 > form > a{
+    color: #33647e;
+}
+ul{
+    list-style-type: none;
+}
+footer{
+    background-color: #c9b9aa;
+    color: #4c2e29 ;
+}
+footer > ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 4fr));
+}
+footer h3{
+    color: #4c2e29;
+}
+footer .in-ul{
+    list-style-type: none;
+}
+footer .in-ul > a{
+    color: #4c2e29;
+    text-decoration: none;
+}
+footer .icon  a{
+    color:#bcb7b1  ;
+}
+footer ul  a:hover{
+    color: #466b71;
+}
+@media screen and (max-width:768px) {
+    section{
+        width: 100% !important;
+        padding: 30px 10px !important;
+        min-height: 80vh !important;
+
+    }
+    .sec5 > div{
+        padding: 29px !important;
+    }
+    .sec6{
+        padding: 20px;
+        width: 100% !important;
+        min-height: 90vh !important;
+    }
+    .sec6 .cover{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .sec6 .cover .left{
+        width: 100%;
+        border: 1px solid #4c2e29;
+        min-height: 90vh;
+    }
+    .sec6 .cover .left .top, 
+    .sec6 .cover .left .bottom{
+        min-height: 80vh !important;
+    }
+    .sec6 .cover .div{
+        min-height: 70vh;
+        width: 100% !important;
+    }
+    .sec6 .cover .right{
+        width: 100% !important;
+        min-height: 90vh !important;
+    }
+    .sec7 > form{
+        width: 100%;
+    }
+    footer .in-ul{
+        width: 100%;
+    }
+}
